@@ -1,15 +1,29 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f8f8f6;
   --foreground: #171717;
 }
+
+@theme {
+    --color-background: #f8f8f6;
+    --color-dark-blue: #053247;
+    --color-blue-secondary: #C2E7FA;
+    --color-light-blue: #e3f2f7;
+    --font-nunito: var(--font-nunito);
+    --shadow-custom-light-blue: 0px 20px 44px -12px rgba(194, 231, 250, 0.7);
+    --shadow-custom-background: 0px 0px 30px rgba(248, 248, 246, 0.3);
+    --shadow-custom-dark-blue: 0px 0px 30px rgba(5, 50, 71, 0.4);
+    --color-gradient-disk: linear-gradient(-34deg, #FFFFFF 0%, #C2E7FA 100%);
+
+  }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +34,21 @@
 }
 
 body {
-  background: var(--background);
+  background: #f8f8f6;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-bullet {
+  list-style-type: disc;
+  /* Remplacez la couleur ci-dessous par votre bleu clair exact si besoin */
+  --tw-prose-bullets: #C2E7FA; /* ou la couleur exacte de votre light blue */
+
+
+}
+
+.custom-bullet::marker {
+  color: #C2E7FA; /* ou la couleur exacte de votre light blue */
+}
+
+

@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calmerry - Mental Health Website (Multi-Page)
 
-## Getting Started
+A multi-page **responsive** **website** for Calmerry, a mental health support platform. The design focuses on creating a **calm**, **professional**, and **inviting experience** for users seeking therapy services online., built using:
 
-First, run the development server:
+- **Next.js** for fast and efficient rendering
+- **Tailwind CSS** for sleek and responsive styling
+
+## 🎨 Design Inspiration
+
+This project was inspired by a blog page design by **Rita Hladilina**.  
+Original design: [Behance Link](https://www.behance.net/gallery/183676969/Mental-Health-Website-Calmerry)
+
+I initially coded the blog page as it appears in the original design. Later, I decided to design my own versions of the About Us, Pricing, and Contacts pages in Figma—while keeping the same visual identity and color palette to maintain consistency.
+
+📁 Figma Design: [View My Figma File](https://www.figma.com/design/TdYppx9LXcvv5DSlmuR0kz/Calmerry?node-id=0-1&t=2MJ0GdTRYdYjmQFZ-1)
+
+## ✨ Features:
+
+- Fully responsive design (mobile, tablet, desktop)
+
+- Clean, accessible, and user-friendly layout
+
+- Modular component-based structure
+
+- Styled with a soft, calming color palette
+
+## 🚀 Live Demo
+
+Check out the deployed version here:  
+🔗 [Calmerry](https://trackz-teal.vercel.app/)
+
+## 🛠 Installation & Usage
+
+If you want to run it locally:
 
 ```bash
+git clone https://github.com/AablaEssadaq/Calmerry.git
+cd Calmerry
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
