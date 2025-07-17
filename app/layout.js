@@ -22,13 +22,13 @@ export const metadata = {
   title: "Calmerry – Online Mental Health & Therapy Platform",
   description:
     "Calmerry offers accessible, professional online therapy to help you prioritize your mental health and well-being.",
-  metadataBase: new URL("https://trackz-teal.vercel.app"), // adjust if custom domain is added
+  metadataBase: new URL("https://calmerry.vercel.app/"), // adjust if custom domain is added
 
   openGraph: {
     title: "Calmerry – Online Mental Health & Therapy Platform",
     description:
       "Accessible, affordable online therapy to help you take care of your mental well-being.",
-    url: "https://trackz-teal.vercel.app",
+    url: "https://calmerry.vercel.app/",
     siteName: "Calmerry",
     locale: "en_US",
     type: "website",

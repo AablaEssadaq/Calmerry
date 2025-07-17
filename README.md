@@ -27,7 +27,7 @@ I initially coded the blog page as it appears in the original design. Later, I d
 ## 🚀 Live Demo
 
 Check out the deployed version here:  
-🔗 [Calmerry](https://trackz-teal.vercel.app/)
+🔗 [Calmerry](https://calmerry.vercel.app/)
 
 ## 🛠 Installation & Usage
 
