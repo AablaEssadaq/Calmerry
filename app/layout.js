@@ -19,9 +19,31 @@ const nunito = Nunito({
 
 
 export const metadata = {
-  title: "Calmerry",
-  description: "Mental health and well-being platform",
+  title: "Calmerry – Online Mental Health & Therapy Platform",
+  description:
+    "Calmerry offers accessible, professional online therapy to help you prioritize your mental health and well-being.",
+  metadataBase: new URL("https://trackz-teal.vercel.app"), // adjust if custom domain is added
+
+  openGraph: {
+    title: "Calmerry – Online Mental Health & Therapy Platform",
+    description:
+      "Accessible, affordable online therapy to help you take care of your mental well-being.",
+    url: "https://trackz-teal.vercel.app",
+    siteName: "Calmerry",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary",
+    title: "Calmerry – Online Mental Health & Therapy Platform",
+    description:
+      "Start your mental health journey with Calmerry's trusted, online therapy services.",
+  },
+
+  themeColor: "#f8f8f6",
 };
+
 
 export default function RootLayout({ children }) {
   return (
